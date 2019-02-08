@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>Contact details</title>
+ </head>
+ <style type="text/css">
+   body{
+     background-image: url("arb.jpg");
+     background-attachment: fixed;
+     background-size: 100%;
+   }
+   a{
+     position: relative;
+ left: 200px;
+
+   }
+ </style>
+<body>
+
+  <font color="#E7EBEC">
+
+<h1>
+  Mail me@ :<br>
+  <a href="mailto:thanutejesh41@gmail.com" target="_blank"><img style='float:middle;position:relative left:80px top:2px' src="logo-gmail.jpg"></a>
+</h1>
+</font>
+<font color="#E7EBEC">
+
+<h1>Contact me on :</h1>
+<img style='float:left; height: 54px; width: 94px; margin-right: 4px;' src='airtel.jpg'/>
+<h2 style='float:left;" class='liketext'></h2>
+
+
+<h1>+91 9845835613</h1>
+
+<h1>Find me at :</h1>
+</font>
+<div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(13.006512,77.637432),
+  zoom:15,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_M4iYXfvRhpLYCfohUy9cU_N70Es7aTk&callback=myMap"></script>
+
+</body>
+</html>
